@@ -41,7 +41,32 @@ p{
     margin-top: 160px;
     background-repeat: no-repeat;
     height: 789px;
-    z-index: 1;
+    flex-direction: column;
+    
 }
+
+.about-font{
+    position: absolute;
+    width: 540px;
+    height: 246px;
+    right: 165px;
+    margin-top:300px;
+    margin-right: 300px;
+}
+.about-font p{
+    padding: 0px;
+}
+
+.hire-button{
+    font-size: 20px;
+    margin-left: 0px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%) ;
+}
+
+
 
 
