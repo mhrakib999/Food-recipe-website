@@ -4,6 +4,24 @@ body{
     padding: 0px;
     margin: 0px;
 }
+.topnav{
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    background:#FC8F49;
+    height: 60px;
+}
+.topnav a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 20px;
+    color: honeydew;
+    font-weight: medium;
+
+}
 section{
     display: flex;
 }
@@ -163,17 +181,43 @@ section{
 }
 .followers{
     display: flex;
-    box-shadow: 5px 10px 10px grey;
+    box-shadow: 5px 10px 22px grey;
     height: 0px;
     width: 0px;
     border-radius: 10px;
-    margin-left: 640px;
-    margin-top: 50px;
+    margin-left: 397px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     height: 200px;
-    width: 580px;
+    width: 1239px;
 }
+
+.downloadpp{
+    display: flex;
+}
+.phoneapp{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 80%;
+}
+.downloadtext{
+    margin-top: 250px;
+    margin-right: 20px;
+}
+.download-button{
+    font-size: 20px;
+    margin-left: 0px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%) ;
+}
+
+
 .fb{
     padding: 30px;
+    margin-left: 96px;
 }
 .fb h2{
     font-size: 35px;
@@ -183,6 +227,7 @@ section{
 }
 .youtube{
     padding: 30px;
+    margin-left: 156px;
 }
 .youtube h2{
     font-size: 35px;
@@ -192,6 +237,7 @@ section{
 }
 .dribbble{
     padding: 30px;
+    margin-left: 200px;
 }
 .dribbble h2{
     font-size: 35px;
