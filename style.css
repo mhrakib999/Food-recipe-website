@@ -1,6 +1,8 @@
 body{
     font-size: 40px;
     color: #575757;
+    padding: 0px;
+    margin: 0px;
 }
 section{
     display: flex;
@@ -14,7 +16,7 @@ section{
     padding-top: 160px;
     padding-left:  160px;
 }
-p{
+.topfont p{
     font-size: 30px;
     padding-left: 160px;
 }
@@ -25,7 +27,6 @@ p{
 
 .order-button{
     font-size: 20px;
-    margin-left: 160px;
     border-radius: 5px;
     color: white;
     text-decoration: none;
@@ -67,6 +68,149 @@ p{
     background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%) ;
 }
 
+.myrecipe-section{
+    display: block;
+    text-align: center;
+}
+.myrecipe-section h1{
+    font-size: 40px;
+}
+.myrecipe-section p{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.food-picture{
+    display: flex;
+}
+.foodone{
+    width: 358px;
+    height: 528px;
+    text-align: left;
+    box-shadow: 5px 10px 10px rgba(128, 128, 128, 0.424);
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-left: 350px;
+    margin-top: 40px;
+}
+.imageone{
+    height: 337px;
+    width: 337px;
+    margin-top: 20px;
+}
+.foodone h3{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.foodone p{
+    font-size: 16px;
+    padding: 0;
+    margin-top: -14px;
+}
 
+.foodtwo{
+    width: 358px;
+    height: 528px;
+    text-align: left;
+    box-shadow: 5px 10px 10px rgba(128, 128, 128, 0.424);
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.imagetwo{
+    height: 337px;
+    width: 337px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.foodtwo h3{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.foodtwo p{
+    font-size: 16px;
+    padding: 0;
+    margin-top: -14px;
+}
+.foodthree{
+    width: 358px;
+    height: 528px;
+    text-align: left;
+    box-shadow: 5px 10px 10px rgba(128, 128, 128, 0.424);
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.imagethree{
+    height: 337px;
+    width: 337px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.foodthree h3{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.foodthree p{
+    font-size: 16px;
+    padding: 0;
+    margin-top: -14px;
+}
+.followers{
+    display: flex;
+    box-shadow: 5px 10px 10px grey;
+    height: 0px;
+    width: 0px;
+    border-radius: 10px;
+    margin-left: 640px;
+    margin-top: 50px;
+    height: 200px;
+    width: 580px;
+}
+.fb{
+    padding: 30px;
+}
+.fb h2{
+    font-size: 35px;
+}
+.fb p{
+    font-size: 16px;
+}
+.youtube{
+    padding: 30px;
+}
+.youtube h2{
+    font-size: 35px;
+}
+.youtube p{
+    font-size: 16px;
+}
+.dribbble{
+    padding: 30px;
+}
+.dribbble h2{
+    font-size: 35px;
+}
+.dribbble p{
+    font-size: 16px;
+}
+
+
+
+footer{
+    text-align: center;
+    background: #0B0D17;
+    height: 400px;
+}
+footer h1{
+    font-weight: 800;
+    font-size: 65px;
+    padding-top: 110px;
+}
 
 
